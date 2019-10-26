@@ -15,9 +15,9 @@
   <header>
     <h1>Neal Bhatt</h1>
     <ul>
-        <li style="float:right"><a class="active" href="#Home">Home</a></li>
-        <li style="float:right"><a class="active" href="#Portfolio">Portfolio</a></li>
-        <li style="float:right"><a class="active" href="#Contact">About</a></li>
+        <li style="float:right"><a class="active" href="index.html">Home</a></li>
+        <li style="float:right"><a class="active" href="portfolio.html">Portfolio</a></li>
+        <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
     </ul>
   </header>
   <div class="container">
@@ -28,22 +28,41 @@
       
     </section>
   </div>
-  <div>
+  <div class="container">
     <form action="/action_page.php">
-      <label for="fname">Your Name!</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="email">Email</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your email">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-    
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Your Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email"></label>
+      </div>
+     
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
       <input type="submit" value="Submit">
+    </div>
     </form>
   </div>
 
