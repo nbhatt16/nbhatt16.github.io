@@ -25,7 +25,9 @@ h1 {
 h2 {
   font-size: 24px;
 }
-
+.header1 {
+float: left
+}
 a {
   color: #d21034;
 }
@@ -53,4 +55,18 @@ a {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 80%;
 }
