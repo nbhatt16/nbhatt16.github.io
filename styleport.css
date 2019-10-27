@@ -6,11 +6,11 @@ body {
     font-size: 24px;
     line-height: 150%;
     color: #333;
-    background: beige;
+    background:beige;
   }
   
   header {
-    background:#e27D60;
+    background:#950740;;
   }
   
   h1 {
@@ -18,7 +18,7 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #eee;
+    color:whitesmoke;
 
     text-align: center;
   }
@@ -30,7 +30,7 @@ body {
   float: left
   }
   a {
-    color: #d21034;
+    color: whitesmoke;
   }
   
   .container {
@@ -64,7 +64,7 @@ body {
   a {
     display: block;
     padding: 8px;
-    background-color: #e27D60;
+    background-color: #950740;;
   }
   ul {
     font-family: serif;

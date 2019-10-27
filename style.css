@@ -5,12 +5,12 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 24px;
   line-height: 150%;
-  color: #333;
+  color:#950740;
   background: beige;
 }
 
 header {
-  background: #e27D60;
+  background: #950740;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 28px;
-  color: #eee;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -29,7 +29,18 @@ h2 {
 float: left
 }
 a {
-  color: #d21034;
+  color: whitesmoke;
+}
+.heading {
+  border-bottom: solid#950740;
+  margin: 10;
+  padding: 20px;
+}
+p.solid {
+  border-style: solid;
+  border-color: #950740;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
@@ -54,8 +65,9 @@ a {
 
 #bio-image {
   width: 200px;
-  height: 200px;
+  height: 250px;
   margin-right: 20px;
+  padding: 20px;
 }
 li {
   float: left;
@@ -64,7 +76,7 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: #e27D60;
+  background-color: #950740;
 }
 ul {
   font-family: serif;
