@@ -14,9 +14,10 @@ header {
 }
 
 h1 {
-  padding: 20px 0;
+  font-family: 'Hind Siliguri', sans-serif;
+  padding: 20px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 28px;
   color: whitesmoke;
   text-align: center;
@@ -29,12 +30,13 @@ h2 {
 float: left
 }
 a {
+  font-family: 'Hind Siliguri', sans-serif;
   color: whitesmoke;
 }
 .heading {
   border-bottom: solid#950740;
-  margin: 0;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 p.solid {
   border-style: solid;
