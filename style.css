@@ -6,7 +6,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   color: #333;
-  background: #E8A87C;
+  background: beige;
 }
 
 header {
@@ -64,7 +64,7 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: #e27D60;
 }
 ul {
   font-family: serif;
@@ -74,4 +74,5 @@ ul {
   top: 0;
   width: 80%;
   flex-direction: row-reverse;
+  
 }

@@ -6,7 +6,7 @@ body {
     font-size: 24px;
     line-height: 150%;
     color: #333;
-    background: #E8A87C;
+    background: beige;
   }
   
   header {
@@ -63,7 +63,7 @@ body {
   a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #e27D60;
   }
   ul {
     font-family: serif;
@@ -106,8 +106,8 @@ body {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    background: #E8A87C;
+    background-color: beige;
+    background: beige;
     padding: 20px;
   }
   

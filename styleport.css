@@ -6,7 +6,7 @@ body {
     font-size: 24px;
     line-height: 150%;
     color: #333;
-    background: #E8A87C;
+    background: beige;
   }
   
   header {
@@ -64,7 +64,7 @@ body {
   a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #e27D60;
   }
   ul {
     font-family: serif;
@@ -78,11 +78,6 @@ body {
     float: left;
   }
   
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
   div.gallery {
     margin: 15px;
     border: 1px solid #ccc;
