@@ -35,9 +35,13 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
     color: whitesmoke;
   }
-  
+  .heading {
+    border-bottom: solid#950740;
+    margin: 5px;
+    padding: 5px;
+  }
   .container {
-    width: 1024px;
+    width: 860px;
     margin: 0 auto;
   }
   
