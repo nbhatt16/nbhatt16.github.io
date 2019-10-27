@@ -2,10 +2,10 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Hind Siliguri', sans-serif;
     font-size: 24px;
     line-height: 150%;
-    color: #333;
+    color: #950740;
     background: beige;
   }
   
@@ -24,6 +24,8 @@ body {
   
   h2 {
     font-size: 24px;
+    padding: 10px;
+    text-align: left;
   }
   .header1 {
   float: left
@@ -104,9 +106,9 @@ body {
     background-color: #45a049;
   }
   
-  .container {
+  .container1 {
+    border: solid #950740;
     border-radius: 5px;
-    background-color: beige;
     background: beige;
     padding: 20px;
   }
@@ -127,11 +129,4 @@ body {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
   }
