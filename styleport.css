@@ -6,11 +6,11 @@ body {
     font-size: 24px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    background: #E8A87C;
   }
   
   header {
-    background: #333;
+    background:#e27D60;
   }
   
   h1 {
@@ -19,7 +19,7 @@ body {
     margin-bottom: 20px;
     font-size: 28px;
     color: #eee;
-    background-color: black;
+
     text-align: center;
   }
   
@@ -84,7 +84,7 @@ body {
     background-color: #dddddd;
   }
   div.gallery {
-    margin: 5px;
+    margin: 15px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
